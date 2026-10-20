@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Verification suite for subway-map.html (data layer + real DOM + file:// branch)",
+  "description": "Verification suite for index.html (data layer + real DOM + file:// branch)",
   "scripts": {
     "test": "node verify.mjs && node dom-test.mjs && node file-test.mjs",
     "test:data": "node verify.mjs",

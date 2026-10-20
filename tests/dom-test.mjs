@@ -1,4 +1,4 @@
-// DOM 级验证：用 jsdom 真实跑一遍 subway-map.html，检查下拉、渲染、交互状态、错误分支
+// DOM 级验证：用 jsdom 真实跑一遍 index.html，检查下拉、渲染、交互状态、错误分支
 // 用法：先在项目根目录起静态服务，再
 //   cd tests && npm install && node dom-test.mjs
 import fs from 'node:fs';
@@ -15,14 +15,14 @@ let fail = 0;
 const check = (n, c, extra = '') => { if (!c) fail++; console.log(`${c ? 'PASS' : 'FAIL'}  ${n}${extra ? '  ' + extra : ''}`); };
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-const html = fs.readFileSync(path.join(ROOT, 'subway-map.html'), 'utf8');
+const html = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
 const errors = [];
 const vc = new VirtualConsole();
 vc.on('jsdomError', e => errors.push('jsdomError: ' + e.message));
 vc.on('error', (...a) => errors.push('console.error: ' + a.join(' ')));
 
 const dom = new JSDOM(html, {
-  url: BASE + 'subway-map.html',
+  url: BASE + 'index.html',
   runScripts: 'dangerously',
   pretendToBeVisual: true,
   virtualConsole: vc,

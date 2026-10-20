@@ -13,14 +13,14 @@ let fail = 0;
 const check = (n, c, extra = '') => { if (!c) fail++; console.log(`${c ? 'PASS' : 'FAIL'}  ${n}${extra ? '  ' + extra : ''}`); };
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-const html = fs.readFileSync(path.join(ROOT, 'subway-map.html'), 'utf8');
+const html = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
 const errors = [];
 const vc = new VirtualConsole();
 vc.on('jsdomError', e => errors.push(e.message));
 vc.on('error', (...a) => errors.push(a.join(' ')));
 
 let fetches = 0;
-const fileUrl = 'file:///' + ROOT.replace(/\\/g, '/').replace(/^\//, '') + '/subway-map.html';
+const fileUrl = 'file:///' + ROOT.replace(/\\/g, '/').replace(/^\//, '') + '/index.html';
 const dom = new JSDOM(html, {
   url: fileUrl,
   runScripts: 'dangerously',

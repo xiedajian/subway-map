@@ -15,7 +15,7 @@ const check = (name, cond, extra = '') => {
 };
 
 /* ---------- 1. 从页面里抽出 normalize() ---------- */
-const html = fs.readFileSync(path.join(ROOT, 'subway-map.html'), 'utf8');
+const html = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
 const script = html.match(/<script>([\s\S]*?)<\/script>/)[1];
 const start = script.indexOf('function normalize(raw)');
 let i = script.indexOf('{', start), depth = 0, end = -1;
@@ -63,7 +63,7 @@ check('北京去重站点数 = 425', bjStn === 425, `实际 ${bjStn}`);
 check('北京图形版本哈希存在', /^[0-9a-f]{64}$/.test(bj.ver), bj.ver.slice(0, 12) + '…');
 
 /* ---------- 4. 静态服务路由 ---------- */
-const routes = ['/subway-map.html', '/data/index.json', '/data/city-131.json', '/data/city-289.json', '/serve.bat'];
+const routes = ['/', '/index.html', '/data/index.json', '/data/city-131.json', '/data/city-289.json', '/serve.bat'];
 for (const r of routes) {
   try {
     const res = await fetch(BASE + r);

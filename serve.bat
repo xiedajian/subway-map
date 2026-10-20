@@ -20,11 +20,11 @@ if errorlevel 1 (
 
 echo.
 echo   subway-map :: local static data viewer
-echo   url  : http://localhost:8000/subway-map.html
+echo   url  : http://localhost:8000/
 echo   stop : close the minimized window named "subway-map server"
 echo.
 
 start "subway-map server" /min cmd /k %PYCMD% -m http.server 8000
 timeout /t 2 /nobreak >nul
-start "" http://localhost:8000/subway-map.html
+start "" http://localhost:8000/
 exit /b 0

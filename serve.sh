@@ -20,7 +20,7 @@ if [ -z "$PY" ]; then
   exit 1
 fi
 
-URL="http://localhost:$PORT/subway-map.html"
+URL="http://localhost:$PORT/"
 echo ""
 echo "  subway-map :: local static data viewer"
 echo "  url  : $URL"

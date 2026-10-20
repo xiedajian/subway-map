@@ -163,7 +163,7 @@ function guideHtml() {
     '<h2>请用本地服务打开这个页面</h2>',
     '<p>你正以 <code>file://</code> 方式直接打开文件。浏览器会拦截本地页面对本地 JSON 的读取（页面 origin 为 <code>null</code>，属于跨源请求），所以城市数据加载不了。</p>',
     '<p>在项目目录下双击 <code>serve.bat</code>，或者手动执行：</p>',
-    '<pre><span class="cmd">python -m http.server 8000</span>\n然后访问 <span class="cmd">http://localhost:8000/subway-map.html</span></pre>',
+    '<pre><span class="cmd">python -m http.server 8000</span>\n然后访问 <span class="cmd">http://localhost:8000/</span></pre>',
     '<p class="why">数据文件：<code>data/index.json</code> 与 <code>data/city-&lt;城市代码&gt;.json</code>；抓取用 <code>python tools/fetch-subways.py</code>。</p>'
   ].join('');
 }
