@@ -1,5 +1,6 @@
 # 地铁示意图 · 本地离线数据集 / Subway Diagrams, Offline
 
+[![tests](https://github.com/xiedajian/subway-map/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/xiedajian/subway-map/actions/workflows/test.yml)
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 ![python](https://img.shields.io/badge/python-3.8%2B%20%C2%B7%20stdlib%20only-3776ab.svg)
 ![dependencies](https://img.shields.io/badge/runtime%20dependencies-none-brightgreen.svg)
@@ -80,6 +81,7 @@ tests/
   dom-test.mjs                real DOM run via jsdom
   file-test.mjs               file:// guidance branch
   package.json                single dev dependency: jsdom
+.github/workflows/test.yml    CI: the three suites on every push / PR
 ```
 
 ## Where the data comes from
@@ -204,6 +206,13 @@ node file-test.mjs    # file:// branch: guidance card, zero requests
 
 Point the suites at another port with `BASE=http://127.0.0.1:8080 node verify.mjs`.
 
+### CI
+
+`.github/workflows/test.yml` runs all three suites on every push to `main` and on every pull request —
+the same commands as above, with the static server started inside the job on `127.0.0.1:8000`.
+Nothing to configure: a public repo has Actions enabled by default and this workflow only asks for
+read access. The badge at the top of this file shows the latest run on `main`.
+
 What is asserted:
 
 - every city's data passes the page's own `normalize()` without throwing; all colours are valid `#RRGGBB`
@@ -223,7 +232,8 @@ What is asserted:
 
 ## Deploying your own copy (GitHub Pages)
 
-The repo is ready to publish as-is — no build step, no Actions workflow needed:
+The repo is ready to publish as-is — no build step needed, and the bundled workflow only runs tests
+(it neither builds nor deploys anything):
 
 1. Fork, or push your own copy.
 2. **Settings → Pages → Source: Deploy from a branch → `main` / `/ (root)` → Save.**
@@ -343,6 +353,7 @@ tests/
   dom-test.mjs                用 jsdom 真跑页面
   file-test.mjs               file:// 引导分支
   package.json                唯一的开发依赖：jsdom
+.github/workflows/test.yml    CI：每次 push / PR 跑这三组测试
 ```
 
 ## 数据从哪来
@@ -466,6 +477,12 @@ node file-test.mjs    # file:// 分支：引导层、零请求
 
 换端口用 `BASE=http://127.0.0.1:8080 node verify.mjs`。
 
+### CI
+
+`.github/workflows/test.yml` 会在每次推送到 `main` 以及每个 PR 上跑这三组测试——命令与上面完全一致，
+静态服务在流水线里起在 `127.0.0.1:8000`。无需任何配置：公开仓库默认就开启 Actions，本流水线只申请
+只读权限。文件顶部的徽章反映 `main` 上最近一次运行的结果。
+
 覆盖的关键断言：
 
 - 所有城市数据都能过页面自己的 `normalize()` 不抛错，颜色全为合法 `#RRGGBB`
@@ -483,7 +500,7 @@ node file-test.mjs    # file:// 分支：引导层、零请求
 
 ## 部署自己的副本（GitHub Pages）
 
-仓库可以原样发布，不需要构建、不需要 Actions：
+仓库可以原样发布，不需要构建；附带的 workflow 只跑测试，不参与构建也不参与部署：
 
 1. Fork，或者推一份自己的副本。
 2. **Settings → Pages → Source 选 Deploy from a branch → `main` / `/ (root)` → Save。**

@@ -1,0 +1,53 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: 66 项断言
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: tests/package-lock.json
+
+      - name: 安装依赖
+        working-directory: tests
+        run: npm ci
+
+      - name: 起静态服务并跑三组测试
+        run: |
+          python3 -m http.server 8000 --bind 127.0.0.1 >/tmp/http.log 2>&1 &
+          pid=$!
+          trap 'kill $pid 2>/dev/null || true' EXIT
+
+          for _ in $(seq 1 40); do
+            curl -sf -o /dev/null http://127.0.0.1:8000/index.html && break
+            sleep 0.25
+          done
+          curl -sf -o /dev/null http://127.0.0.1:8000/index.html \
+            || { echo "::error::静态服务未就绪"; cat /tmp/http.log; exit 1; }
+
+          cd tests
+          npm test
+
+      - name: 服务访问日志
+        if: failure()
+        run: cat /tmp/http.log || true
