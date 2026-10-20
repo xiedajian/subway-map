@@ -1,0 +1,821 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1190 -1600 3700 3280" width="3700" height="3280" font-family="-apple-system,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+<rect x="-1190" y="-1600" width="3700" height="3280" fill="#f6f7f9"/>
+<g>
+<polyline points="-600,135 -520,210 -510,217 -500,220 -410,220 -320,220 -240,220 -150,220 -60,220 20,220 110,220 240,220 320,220 370,220 500,220 600,220 700,220 760,220 870,220 1000,220 1110,220 1200,220 1320,220 1400,220 1450,220 1530,220 1610,220 1690,220 1750,220 1810,220 1840,220 1850,223 1860,230 1880,250 1920,290 1960,330 2000,370 2040,410 2080,450 2087,460 2090,470 2090,660 2090,700 2083,713 2070,720 1970,720" fill="none" stroke="#D3746E" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="370,-70 370,-110 377,-123 390,-130 520,-130 680,-130 750,-130 870,-130 980,-130 993,-123 1000,-110 1000,-70 1000,20 1000,110 1000,220 1000,337 993,347 980,350 870,350 720,350 570,350 500,350 390,350 377,343 370,330 370,220 370,130 370,50" fill="none" stroke="#568BB2" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="1000,20 1110,20 1200,20 1320,20 1430,20 1500,20 1513,13 1520,0 1520,-60 1520,-120 1520,-180 1520,-225 1527,-238 1540,-245 1540,-245 1580,-245 1580,-250" fill="none" stroke="#F05771" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="-140,-730 -40,-730 40,-730 90,-730 103,-723 110,-710 110,-630 110,-530 110,-440 110,-340 110,-250 110,-180 110,-110 110,-90 117,-77 130,-70 300,-70 370,-70 470,-70 480,-70 493,-63 500,-50 500,50 500,106 500,162 500,220 500,350 500,440 500,520 500,600 500,700 500,800 500,860 500,920 500,930 493,943 480,950 320,950 307,957 300,970 300,1000 300,1060 300,1120 300,1180 300,1240 300,1300 300,1360 300,1420 300,1480 300,1540" fill="none" stroke="#49ACBD" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="870,-1080 870,-970 870,-910 870,-850 870,-740 870,-630 870,-520 870,-430 870,-340 870,-250 870,-190 870,-130 870,-70 870,20 870,110 870,165 870,220 870,350 870,440 870,530 870,600 870,670 870,800" fill="none" stroke="#C162A1" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="-700,135 -700,132 -600,132 -600,135 -600,132 -590,132 -580,129 -570,122 -540,92 -510,62 -500,54 -490,50 -450,50 -350,50 -250,50 -150,50 -70,50 -10,50 110,50 240,50 310,50 370,50 500,50 600,50 710,50 730,50 750,53 760,60 800,100 810,107 820,110 870,110 1000,110 1110,110 1200,110 1320,110 1400,110 1480,110 1640,110 1700,110 1760,110 1820,110 1910,110 1950,110 1960,113 1970,120 2030,180 2070,220 2080,227 2090,230 2170,230 2240,230 2310,230 2380,230 2400,230 2415,235 2420,250 2420,280" fill="none" stroke="#DDB25B" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="110,370 150,430 160,437 170,440 190,440 240,440 370,440 500,440 590,440 680,440 775,440 870,440 1000,440 1080,440 1200,440 1320,440 1370,440 1430,440 1440,440 1453,447 1460,460 1460,470 1460,520 1460,570 1460,590 1467,603 1480,610 1500,610 1550,610 1600,610 1660,610 1720,610 1780,610 1840,610 1900,610 1960,610 2030,610 2070,625 2085,660 2090,660 2085,660 2070,700 2030,715 1970,715 1970,720" fill="none" stroke="#F7D49B" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="380,-1070 430,-1070 520,-1070 570,-1070 585,-1065 590,-1050 590,-970 590,-850 590,-795 590,-740 590,-690 590,-670 593,-660 600,-650 620,-630 670,-580 677,-570 680,-560 680,-520 680,-430 680,-340 680,-250 680,-190 680,-130 680,-70 680,-10 683,0 688,10 710,50 750,110 757,120 760,130 760,165 760,220 760,260 757,270 752,280 720,350 690,380 683,390 680,400 680,440 680,520 680,600 680,670 680,730 680,800 680,880 680,960 680,1030 683,1040 690,1050 700,1060 750,1110 800,1170 855,1230 910,1290" fill="none" stroke="#4EAB85" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="-60,1000 -60,900 -60,820 -60,720 -60,670 -60,630 -57,620 -50,610 -40,600 20,510 60,450 102,390 107,380 110,370 110,220 110,130 110,50 110,-110" fill="none" stroke="#ADD362" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="20,720 20,630 20,600 20,510 20,370 20,220 20,210 17,200 10,190 -45,130 -60,110 -67,100 -70,90 -70,50 -70,-90 -70,-250 -70,-290 -70,-320 -63,-333 -50,-340 -30,-340 40,-340 110,-340 230,-340 340,-340 440,-340 520,-340 600,-340 680,-340 775,-340 870,-340 1030,-340 1110,-340 1180,-340 1193,-333 1200,-320 1200,-250 1200,-120 1200,-40 1200,20 1200,110 1200,165 1200,220 1200,440 1200,500 1200,540 1200,600 1200,780 1193,793 1180,800 1160,800 1070,800 870,800 770,800 680,800 580,800 500,800 350,800 347,800 350,800 260,800 80,800 40,800 27,793 20,780" fill="none" stroke="#4FB4D5" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="-700,15 -700,135 -700,220 -700,290" fill="none" stroke="#F09E94" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="1580,-250 1510,-250 1450,-250 1390,-250 1260,-250 1200,-250 1110,-250 1030,-250 870,-250 775,-250 680,-250 600,-250 520,-250 440,-250 340,-250 110,-250 40,-250 -70,-250 -130,-250 -143,-243 -150,-230 -150,-170 -150,-70" fill="none" stroke="#CD934F" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="370,-70 348,-120 343,-130 340,-140 340,-250 340,-340 340,-470 340,-630 340,-720 337,-720 340,-720 340,-830 337,-830 340,-830 340,-830 347,-843 360,-850 380,-850 470,-850 590,-850 870,-850 940,-850 1010,-850 1023,-843 1030,-830 1030,-520 1030,-340 1030,-250 1030,-160 1030,-110 1027,-100 1020,-90 1000,-70" fill="none" stroke="#F8EB54" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="1220,-740 1220,-670 1220,-600 1220,-520 1220,-440 1223,-430 1230,-420 1240,-410 1290,-360 1310,-340 1317,-330 1320,-320 1320,-180 1320,-130 1320,-80 1320,20 1320,110 1320,220 1320,440 1320,510 1320,580 1313,593 1300,600 1200,600 1045,600 870,600 820,600 680,600 500,600 420,600 360,600 300,600 240,600 130,600 20,600 -40,600 -160,600 -260,600 -360,600 -460,600 -560,600" fill="none" stroke="#DBB1A9" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="380,-520 440,-520 520,-520 680,-520 775,-520 870,-520 930,-520 1030,-520 1220,-520 1340,-520 1430,-520 1443,-527 1450,-540 1450,-650 1450,-720 1450,-790 1450,-860 1450,-930 1450,-990 1450,-1040 1457,-1053 1470,-1060 1560,-1060 1650,-1060 1740,-1060 1830,-1060" fill="none" stroke="#84628E" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="-420,-1090 -320,-1090 -220,-1090 -120,-1090 -10,-1090 20,-1090 33,-1083 40,-1070 40,-1060 40,-1010 40,-970 40,-860 40,-730 40,-520 40,-340 40,-250 40,-160 40,-130 47,-117 60,-110 110,-110 220,-110 233,-103 240,-90 240,50 240,105 240,160 240,220 240,440 240,520 240,600 240,700 233,713 220,720 130,720 20,720 -60,720 -170,720 -230,720 -290,720 -370,720 -440,720" fill="none" stroke="#87B15C" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="1680,1230 1610,1140 1540,1050 1470,960 1400,870 1320,760 1200,600 1150,540 1110,500 1110,220 1110,110 1110,20 1110,-80 1110,-250 1110,-340 1110,-410 1107,-420 1100,-430 1030,-520 990,-580 983,-590 980,-600 980,-700 980,-910 980,-970 980,-1170 980,-1310" fill="none" stroke="#4EBFC1" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="980,-970 930,-970 870,-970 740,-970 590,-970 550,-970 470,-970 400,-970 280,-970 160,-970 40,-970" fill="none" stroke="#807EB8" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="520,-340 520,-250 520,-130 520,10 517,20 510,30 500,50 430,150 423,160 420,170 420,190 420,390 420,600 420,650 417,660 410,670 360,720 353,730 350,740 350,800 347,800 350,800 350,900 357,913 370,920 380,920 500,920" fill="none" stroke="#E4C2D5" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="-600,135 -600,137 -700,137 -700,135 -700,137 -770,137 -840,137 -890,137 -903,144 -910,157 -910,207 -910,267 -910,267 -917,280 -930,287 -970,287 -1040,287" fill="none" stroke="#C58569" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="350,800 345,800 345,910 348,920 355,930 550,1160 670,1300 677,1310 680,1320 680,1590" fill="none" stroke="#476CAB" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="440,-250 440,-340 440,-430 440,-520 440,-580 440,-640 440,-650 433,-663 420,-670 380,-670 355,-670 340,-675 335,-690 335,-720 337,-720 335,-720 335,-830 337,-830 335,-830 335,-1000 338,-1010 345,-1020 380,-1070 380,-1150 380,-1230 380,-1310 380,-1390 380,-1420 373,-1433 360,-1440 320,-1440 200,-1440 80,-1440 0,-1440 -10,-1443 -20,-1450 -60,-1490 -70,-1500 -80,-1507 -90,-1510 -170,-1510" fill="none" stroke="#E6A0C5" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="870,800 870,870 873,880 880,890 907,922 934,954 961,986 988,1018 1015,1050 1042,1082 1070,1116 1079,1132 1090,1140 1200,1140 1325,1140 1450,1140 1610,1140 1800,1140" fill="none" stroke="#E34090" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="130,720 80,800 35,865 -10,930 -60,1000 -94,1042 -128,1084 -162,1126 -196,1168 -230,1210 -264,1254 -299,1300 -310,1307 -320,1310 -360,1310 -450,1310 -520,1310 -590,1310" fill="none" stroke="#E68D69" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="-590,1310 -660,1310 -730,1310 -800,1310 -870,1310 -950,1310 -1020,1310 -1030,1307 -1040,1300 -1060,1280 -1100,1240" fill="none" stroke="#E68D69" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="870,-70 1000,-70 1030,-70 1200,-250 1590,-600 1630,-625 1670,-640 1700,-650 1730,-670 1760,-700 1770,-730 1770,-930 1770,-920 1750,-830 1690,-800 1630,-830 1614,-920 1614,-930 1614,-850 1610,-700 1590,-600" fill="none" stroke="#AEA7C4" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="-30,-340 -30,-430 -37,-443 -50,-450 -130,-450 -210,-450 -260,-450 -273,-457 -280,-470 -280,-520 -280,-540 -287,-553 -300,-560 -310,-560 -440,-560" fill="none" stroke="#E6465A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<polyline points="1230,956 1190,996 1150,1036 1110,1076 1070,1116 1040,1140 1033,1150 1030,1160 1030,1200 1030,1240 1030,1280 1030,1320 1030,1360 1030,1400 1030,1440 1030,1480" fill="none" stroke="#D74F5B" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<circle cx="-600" cy="135" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-500" cy="220" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="-410" cy="220" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="-320" cy="220" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="-240" cy="220" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="-150" cy="220" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="-60" cy="220" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="20" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="110" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="240" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="320" cy="220" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="370" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="500" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="600" cy="220" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="700" cy="220" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="760" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="870" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1000" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1110" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1200" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1320" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1400" cy="220" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="1450" cy="220" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="1530" cy="220" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="1610" cy="220" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="1690" cy="220" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="1750" cy="220" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="1810" cy="220" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="1880" cy="250" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="1920" cy="290" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="1960" cy="330" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="2000" cy="370" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="2040" cy="410" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="2080" cy="450" r="4.6" fill="#fff" stroke="#D3746E" stroke-width="2.2"/>
+<circle cx="2090" cy="660" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1970" cy="720" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="370" cy="-70" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="520" cy="-130" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="680" cy="-130" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="750" cy="-130" r="4.6" fill="#fff" stroke="#568BB2" stroke-width="2.2"/>
+<circle cx="870" cy="-130" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1000" cy="-70" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1000" cy="20" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1000" cy="110" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1000" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1000" cy="337" r="4.6" fill="#fff" stroke="#568BB2" stroke-width="2.2"/>
+<circle cx="870" cy="350" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="720" cy="350" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="570" cy="350" r="4.6" fill="#fff" stroke="#568BB2" stroke-width="2.2"/>
+<circle cx="500" cy="350" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="370" cy="330" r="4.6" fill="#fff" stroke="#568BB2" stroke-width="2.2"/>
+<circle cx="370" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="370" cy="130" r="4.6" fill="#fff" stroke="#568BB2" stroke-width="2.2"/>
+<circle cx="370" cy="50" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1000" cy="20" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1110" cy="20" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1200" cy="20" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1320" cy="20" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1430" cy="20" r="4.6" fill="#fff" stroke="#F05771" stroke-width="2.2"/>
+<circle cx="1520" cy="0" r="4.6" fill="#fff" stroke="#F05771" stroke-width="2.2"/>
+<circle cx="1520" cy="-60" r="4.6" fill="#fff" stroke="#F05771" stroke-width="2.2"/>
+<circle cx="1520" cy="-120" r="4.6" fill="#fff" stroke="#F05771" stroke-width="2.2"/>
+<circle cx="1520" cy="-180" r="4.6" fill="#fff" stroke="#F05771" stroke-width="2.2"/>
+<circle cx="1580" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-140" cy="-730" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="-40" cy="-730" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="40" cy="-730" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="110" cy="-630" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="110" cy="-530" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="110" cy="-440" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="110" cy="-340" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="110" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="110" cy="-180" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="110" cy="-110" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="300" cy="-70" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="370" cy="-70" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="470" cy="-70" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="500" cy="50" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="500" cy="106" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="500" cy="162" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="500" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="500" cy="350" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="500" cy="440" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="500" cy="520" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="500" cy="600" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="500" cy="700" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="500" cy="800" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="500" cy="860" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="500" cy="920" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="300" cy="1000" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="300" cy="1060" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="300" cy="1120" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="300" cy="1180" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="300" cy="1240" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="300" cy="1300" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="300" cy="1360" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="300" cy="1420" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="300" cy="1480" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="300" cy="1540" r="4.6" fill="#fff" stroke="#49ACBD" stroke-width="2.2"/>
+<circle cx="870" cy="-1080" r="4.6" fill="#fff" stroke="#C162A1" stroke-width="2.2"/>
+<circle cx="870" cy="-970" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="870" cy="-910" r="4.6" fill="#fff" stroke="#C162A1" stroke-width="2.2"/>
+<circle cx="870" cy="-850" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="870" cy="-740" r="4.6" fill="#fff" stroke="#C162A1" stroke-width="2.2"/>
+<circle cx="870" cy="-630" r="4.6" fill="#fff" stroke="#C162A1" stroke-width="2.2"/>
+<circle cx="870" cy="-520" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="870" cy="-430" r="4.6" fill="#fff" stroke="#C162A1" stroke-width="2.2"/>
+<circle cx="870" cy="-340" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="870" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="870" cy="-190" r="4.6" fill="#fff" stroke="#C162A1" stroke-width="2.2"/>
+<circle cx="870" cy="-130" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="870" cy="-70" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="870" cy="20" r="4.6" fill="#fff" stroke="#C162A1" stroke-width="2.2"/>
+<circle cx="870" cy="110" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="870" cy="165" r="4.6" fill="#fff" stroke="#C162A1" stroke-width="2.2"/>
+<circle cx="870" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="870" cy="350" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="870" cy="440" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="870" cy="530" r="4.6" fill="#fff" stroke="#C162A1" stroke-width="2.2"/>
+<circle cx="870" cy="600" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="870" cy="670" r="4.6" fill="#fff" stroke="#C162A1" stroke-width="2.2"/>
+<circle cx="870" cy="800" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-700" cy="135" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-600" cy="135" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-540" cy="92" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="-450" cy="50" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="-350" cy="50" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="-250" cy="50" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="-150" cy="50" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="-70" cy="50" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-10" cy="50" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="110" cy="50" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="240" cy="50" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="310" cy="50" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="370" cy="50" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="500" cy="50" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="600" cy="50" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="710" cy="50" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="870" cy="110" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1000" cy="110" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1110" cy="110" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1200" cy="110" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1320" cy="110" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1400" cy="110" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="1480" cy="110" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="1640" cy="110" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="1700" cy="110" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="1760" cy="110" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="1820" cy="110" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="1910" cy="110" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="1970" cy="120" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="2030" cy="180" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="2090" cy="230" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="2170" cy="230" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="2240" cy="230" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="2310" cy="230" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="2380" cy="230" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="2420" cy="280" r="4.6" fill="#fff" stroke="#DDB25B" stroke-width="2.2"/>
+<circle cx="110" cy="370" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="190" cy="440" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="240" cy="440" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="370" cy="440" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="500" cy="440" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="590" cy="440" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="680" cy="440" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="775" cy="440" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="870" cy="440" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1000" cy="440" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="1080" cy="440" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="1200" cy="440" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1320" cy="440" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1370" cy="440" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="1430" cy="440" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="1460" cy="470" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="1460" cy="520" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="1460" cy="570" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="1500" cy="610" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="1550" cy="610" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="1600" cy="610" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="1660" cy="610" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="1720" cy="610" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="1780" cy="610" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="1840" cy="610" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="1900" cy="610" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="1960" cy="610" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="2030" cy="610" r="4.6" fill="#fff" stroke="#F7D49B" stroke-width="2.2"/>
+<circle cx="2090" cy="660" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1970" cy="720" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="380" cy="-1070" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="430" cy="-1070" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="520" cy="-1070" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="590" cy="-970" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="590" cy="-850" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="590" cy="-795" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="590" cy="-740" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="590" cy="-690" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="620" cy="-630" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="670" cy="-580" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="680" cy="-520" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="680" cy="-430" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="680" cy="-340" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="680" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="680" cy="-190" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="680" cy="-130" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="680" cy="-70" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="710" cy="50" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="750" cy="110" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="760" cy="165" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="760" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="720" cy="350" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="680" cy="440" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="680" cy="520" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="680" cy="600" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="680" cy="670" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="680" cy="730" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="680" cy="800" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="680" cy="880" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="680" cy="960" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="700" cy="1060" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="750" cy="1110" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="800" cy="1170" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="855" cy="1230" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="910" cy="1290" r="4.6" fill="#fff" stroke="#4EAB85" stroke-width="2.2"/>
+<circle cx="-60" cy="1000" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-60" cy="900" r="4.6" fill="#fff" stroke="#ADD362" stroke-width="2.2"/>
+<circle cx="-60" cy="820" r="4.6" fill="#fff" stroke="#ADD362" stroke-width="2.2"/>
+<circle cx="-60" cy="720" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-60" cy="670" r="4.6" fill="#fff" stroke="#ADD362" stroke-width="2.2"/>
+<circle cx="-40" cy="600" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="20" cy="510" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="60" cy="450" r="4.6" fill="#fff" stroke="#ADD362" stroke-width="2.2"/>
+<circle cx="110" cy="370" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="110" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="110" cy="130" r="4.6" fill="#fff" stroke="#ADD362" stroke-width="2.2"/>
+<circle cx="110" cy="50" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="110" cy="-110" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="20" cy="720" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="20" cy="630" r="4.6" fill="#fff" stroke="#4FB4D5" stroke-width="2.2"/>
+<circle cx="20" cy="600" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="20" cy="510" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="20" cy="370" r="4.6" fill="#fff" stroke="#4FB4D5" stroke-width="2.2"/>
+<circle cx="20" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-45" cy="130" r="4.6" fill="#fff" stroke="#4FB4D5" stroke-width="2.2"/>
+<circle cx="-70" cy="50" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-70" cy="-90" r="4.6" fill="#fff" stroke="#4FB4D5" stroke-width="2.2"/>
+<circle cx="-70" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-70" cy="-290" r="4.6" fill="#fff" stroke="#4FB4D5" stroke-width="2.2"/>
+<circle cx="-30" cy="-340" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="40" cy="-340" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="110" cy="-340" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="230" cy="-340" r="4.6" fill="#fff" stroke="#4FB4D5" stroke-width="2.2"/>
+<circle cx="340" cy="-340" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="440" cy="-340" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="520" cy="-340" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="600" cy="-340" r="4.6" fill="#fff" stroke="#4FB4D5" stroke-width="2.2"/>
+<circle cx="680" cy="-340" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="775" cy="-340" r="4.6" fill="#fff" stroke="#4FB4D5" stroke-width="2.2"/>
+<circle cx="870" cy="-340" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1030" cy="-340" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1110" cy="-340" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1200" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1200" cy="-120" r="4.6" fill="#fff" stroke="#4FB4D5" stroke-width="2.2"/>
+<circle cx="1200" cy="-40" r="4.6" fill="#fff" stroke="#4FB4D5" stroke-width="2.2"/>
+<circle cx="1200" cy="20" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1200" cy="110" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1200" cy="165" r="4.6" fill="#fff" stroke="#4FB4D5" stroke-width="2.2"/>
+<circle cx="1200" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1200" cy="440" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1200" cy="500" r="4.6" fill="#fff" stroke="#4FB4D5" stroke-width="2.2"/>
+<circle cx="1200" cy="540" r="4.6" fill="#fff" stroke="#4FB4D5" stroke-width="2.2"/>
+<circle cx="1200" cy="600" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1160" cy="800" r="4.6" fill="#fff" stroke="#4FB4D5" stroke-width="2.2"/>
+<circle cx="1070" cy="800" r="4.6" fill="#fff" stroke="#4FB4D5" stroke-width="2.2"/>
+<circle cx="870" cy="800" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="770" cy="800" r="4.6" fill="#fff" stroke="#4FB4D5" stroke-width="2.2"/>
+<circle cx="680" cy="800" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="580" cy="800" r="4.6" fill="#fff" stroke="#4FB4D5" stroke-width="2.2"/>
+<circle cx="500" cy="800" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="347" cy="800" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="260" cy="800" r="4.6" fill="#fff" stroke="#4FB4D5" stroke-width="2.2"/>
+<circle cx="80" cy="800" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-700" cy="15" r="4.6" fill="#fff" stroke="#F09E94" stroke-width="2.2"/>
+<circle cx="-700" cy="135" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-700" cy="220" r="4.6" fill="#fff" stroke="#F09E94" stroke-width="2.2"/>
+<circle cx="-700" cy="290" r="4.6" fill="#fff" stroke="#F09E94" stroke-width="2.2"/>
+<circle cx="1580" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1510" cy="-250" r="4.6" fill="#fff" stroke="#CD934F" stroke-width="2.2"/>
+<circle cx="1450" cy="-250" r="4.6" fill="#fff" stroke="#CD934F" stroke-width="2.2"/>
+<circle cx="1390" cy="-250" r="4.6" fill="#fff" stroke="#CD934F" stroke-width="2.2"/>
+<circle cx="1260" cy="-250" r="4.6" fill="#fff" stroke="#CD934F" stroke-width="2.2"/>
+<circle cx="1200" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1110" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1030" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="870" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="775" cy="-250" r="4.6" fill="#fff" stroke="#CD934F" stroke-width="2.2"/>
+<circle cx="680" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="600" cy="-250" r="4.6" fill="#fff" stroke="#CD934F" stroke-width="2.2"/>
+<circle cx="520" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="440" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="340" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="110" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="40" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-70" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-150" cy="-170" r="4.6" fill="#fff" stroke="#CD934F" stroke-width="2.2"/>
+<circle cx="-150" cy="-70" r="4.6" fill="#fff" stroke="#CD934F" stroke-width="2.2"/>
+<circle cx="370" cy="-70" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="340" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="340" cy="-340" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="340" cy="-470" r="4.6" fill="#fff" stroke="#F8EB54" stroke-width="2.2"/>
+<circle cx="340" cy="-630" r="4.6" fill="#fff" stroke="#F8EB54" stroke-width="2.2"/>
+<circle cx="337" cy="-720" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="337" cy="-830" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="380" cy="-850" r="4.6" fill="#fff" stroke="#F8EB54" stroke-width="2.2"/>
+<circle cx="470" cy="-850" r="4.6" fill="#fff" stroke="#F8EB54" stroke-width="2.2"/>
+<circle cx="590" cy="-850" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="870" cy="-850" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="940" cy="-850" r="4.6" fill="#fff" stroke="#F8EB54" stroke-width="2.2"/>
+<circle cx="1030" cy="-520" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1030" cy="-340" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1030" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1030" cy="-160" r="4.6" fill="#fff" stroke="#F8EB54" stroke-width="2.2"/>
+<circle cx="1000" cy="-70" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1220" cy="-740" r="4.6" fill="#fff" stroke="#DBB1A9" stroke-width="2.2"/>
+<circle cx="1220" cy="-670" r="4.6" fill="#fff" stroke="#DBB1A9" stroke-width="2.2"/>
+<circle cx="1220" cy="-600" r="4.6" fill="#fff" stroke="#DBB1A9" stroke-width="2.2"/>
+<circle cx="1220" cy="-520" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1240" cy="-410" r="4.6" fill="#fff" stroke="#DBB1A9" stroke-width="2.2"/>
+<circle cx="1290" cy="-360" r="4.6" fill="#fff" stroke="#DBB1A9" stroke-width="2.2"/>
+<circle cx="1320" cy="-180" r="4.6" fill="#fff" stroke="#DBB1A9" stroke-width="2.2"/>
+<circle cx="1320" cy="-130" r="4.6" fill="#fff" stroke="#DBB1A9" stroke-width="2.2"/>
+<circle cx="1320" cy="-80" r="4.6" fill="#fff" stroke="#DBB1A9" stroke-width="2.2"/>
+<circle cx="1320" cy="20" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1320" cy="110" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1320" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1320" cy="440" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1320" cy="510" r="4.6" fill="#fff" stroke="#DBB1A9" stroke-width="2.2"/>
+<circle cx="1300" cy="600" r="4.6" fill="#fff" stroke="#DBB1A9" stroke-width="2.2"/>
+<circle cx="1200" cy="600" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1045" cy="600" r="4.6" fill="#fff" stroke="#DBB1A9" stroke-width="2.2"/>
+<circle cx="870" cy="600" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="820" cy="600" r="4.6" fill="#fff" stroke="#DBB1A9" stroke-width="2.2"/>
+<circle cx="680" cy="600" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="500" cy="600" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="420" cy="600" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="360" cy="600" r="4.6" fill="#fff" stroke="#DBB1A9" stroke-width="2.2"/>
+<circle cx="300" cy="600" r="4.6" fill="#fff" stroke="#DBB1A9" stroke-width="2.2"/>
+<circle cx="240" cy="600" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="130" cy="600" r="4.6" fill="#fff" stroke="#DBB1A9" stroke-width="2.2"/>
+<circle cx="20" cy="600" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-40" cy="600" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-160" cy="600" r="4.6" fill="#fff" stroke="#DBB1A9" stroke-width="2.2"/>
+<circle cx="-260" cy="600" r="4.6" fill="#fff" stroke="#DBB1A9" stroke-width="2.2"/>
+<circle cx="-360" cy="600" r="4.6" fill="#fff" stroke="#DBB1A9" stroke-width="2.2"/>
+<circle cx="-460" cy="600" r="4.6" fill="#fff" stroke="#DBB1A9" stroke-width="2.2"/>
+<circle cx="-560" cy="600" r="4.6" fill="#fff" stroke="#DBB1A9" stroke-width="2.2"/>
+<circle cx="380" cy="-520" r="4.6" fill="#fff" stroke="#84628E" stroke-width="2.2"/>
+<circle cx="440" cy="-520" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="520" cy="-520" r="4.6" fill="#fff" stroke="#84628E" stroke-width="2.2"/>
+<circle cx="680" cy="-520" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="775" cy="-520" r="4.6" fill="#fff" stroke="#84628E" stroke-width="2.2"/>
+<circle cx="870" cy="-520" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="930" cy="-520" r="4.6" fill="#fff" stroke="#84628E" stroke-width="2.2"/>
+<circle cx="1030" cy="-520" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1220" cy="-520" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1340" cy="-520" r="4.6" fill="#fff" stroke="#84628E" stroke-width="2.2"/>
+<circle cx="1450" cy="-650" r="4.6" fill="#fff" stroke="#84628E" stroke-width="2.2"/>
+<circle cx="1450" cy="-720" r="4.6" fill="#fff" stroke="#84628E" stroke-width="2.2"/>
+<circle cx="1450" cy="-790" r="4.6" fill="#fff" stroke="#84628E" stroke-width="2.2"/>
+<circle cx="1450" cy="-860" r="4.6" fill="#fff" stroke="#84628E" stroke-width="2.2"/>
+<circle cx="1450" cy="-930" r="4.6" fill="#fff" stroke="#84628E" stroke-width="2.2"/>
+<circle cx="1450" cy="-990" r="4.6" fill="#fff" stroke="#84628E" stroke-width="2.2"/>
+<circle cx="1560" cy="-1060" r="4.6" fill="#fff" stroke="#84628E" stroke-width="2.2"/>
+<circle cx="1650" cy="-1060" r="4.6" fill="#fff" stroke="#84628E" stroke-width="2.2"/>
+<circle cx="1740" cy="-1060" r="4.6" fill="#fff" stroke="#84628E" stroke-width="2.2"/>
+<circle cx="1830" cy="-1060" r="4.6" fill="#fff" stroke="#84628E" stroke-width="2.2"/>
+<circle cx="-420" cy="-1090" r="4.6" fill="#fff" stroke="#87B15C" stroke-width="2.2"/>
+<circle cx="-320" cy="-1090" r="4.6" fill="#fff" stroke="#87B15C" stroke-width="2.2"/>
+<circle cx="-220" cy="-1090" r="4.6" fill="#fff" stroke="#87B15C" stroke-width="2.2"/>
+<circle cx="-120" cy="-1090" r="4.6" fill="#fff" stroke="#87B15C" stroke-width="2.2"/>
+<circle cx="-10" cy="-1090" r="4.6" fill="#fff" stroke="#87B15C" stroke-width="2.2"/>
+<circle cx="40" cy="-1060" r="4.6" fill="#fff" stroke="#87B15C" stroke-width="2.2"/>
+<circle cx="40" cy="-1010" r="4.6" fill="#fff" stroke="#87B15C" stroke-width="2.2"/>
+<circle cx="40" cy="-970" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="40" cy="-860" r="4.6" fill="#fff" stroke="#87B15C" stroke-width="2.2"/>
+<circle cx="40" cy="-730" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="40" cy="-520" r="4.6" fill="#fff" stroke="#87B15C" stroke-width="2.2"/>
+<circle cx="40" cy="-340" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="40" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="40" cy="-160" r="4.6" fill="#fff" stroke="#87B15C" stroke-width="2.2"/>
+<circle cx="110" cy="-110" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="240" cy="50" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="240" cy="105" r="4.6" fill="#fff" stroke="#87B15C" stroke-width="2.2"/>
+<circle cx="240" cy="160" r="4.6" fill="#fff" stroke="#87B15C" stroke-width="2.2"/>
+<circle cx="240" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="240" cy="440" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="240" cy="520" r="4.6" fill="#fff" stroke="#87B15C" stroke-width="2.2"/>
+<circle cx="240" cy="600" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="130" cy="720" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="20" cy="720" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-60" cy="720" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-170" cy="720" r="4.6" fill="#fff" stroke="#87B15C" stroke-width="2.2"/>
+<circle cx="-230" cy="720" r="4.6" fill="#fff" stroke="#87B15C" stroke-width="2.2"/>
+<circle cx="-290" cy="720" r="4.6" fill="#fff" stroke="#87B15C" stroke-width="2.2"/>
+<circle cx="-370" cy="720" r="4.6" fill="#fff" stroke="#87B15C" stroke-width="2.2"/>
+<circle cx="-440" cy="720" r="4.6" fill="#fff" stroke="#87B15C" stroke-width="2.2"/>
+<circle cx="1680" cy="1230" r="4.6" fill="#fff" stroke="#4EBFC1" stroke-width="2.2"/>
+<circle cx="1610" cy="1140" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1540" cy="1050" r="4.6" fill="#fff" stroke="#4EBFC1" stroke-width="2.2"/>
+<circle cx="1470" cy="960" r="4.6" fill="#fff" stroke="#4EBFC1" stroke-width="2.2"/>
+<circle cx="1400" cy="870" r="4.6" fill="#fff" stroke="#4EBFC1" stroke-width="2.2"/>
+<circle cx="1320" cy="760" r="4.6" fill="#fff" stroke="#4EBFC1" stroke-width="2.2"/>
+<circle cx="1200" cy="600" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1150" cy="540" r="4.6" fill="#fff" stroke="#4EBFC1" stroke-width="2.2"/>
+<circle cx="1110" cy="220" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1110" cy="110" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1110" cy="20" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1110" cy="-80" r="4.6" fill="#fff" stroke="#4EBFC1" stroke-width="2.2"/>
+<circle cx="1110" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1110" cy="-340" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1030" cy="-520" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="980" cy="-700" r="4.6" fill="#fff" stroke="#4EBFC1" stroke-width="2.2"/>
+<circle cx="980" cy="-910" r="4.6" fill="#fff" stroke="#4EBFC1" stroke-width="2.2"/>
+<circle cx="980" cy="-970" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="980" cy="-1170" r="4.6" fill="#fff" stroke="#4EBFC1" stroke-width="2.2"/>
+<circle cx="980" cy="-1310" r="4.6" fill="#fff" stroke="#4EBFC1" stroke-width="2.2"/>
+<circle cx="980" cy="-970" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="930" cy="-970" r="4.6" fill="#fff" stroke="#807EB8" stroke-width="2.2"/>
+<circle cx="870" cy="-970" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="740" cy="-970" r="4.6" fill="#fff" stroke="#807EB8" stroke-width="2.2"/>
+<circle cx="590" cy="-970" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="550" cy="-970" r="4.6" fill="#fff" stroke="#807EB8" stroke-width="2.2"/>
+<circle cx="470" cy="-970" r="4.6" fill="#fff" stroke="#807EB8" stroke-width="2.2"/>
+<circle cx="400" cy="-970" r="4.6" fill="#fff" stroke="#807EB8" stroke-width="2.2"/>
+<circle cx="280" cy="-970" r="4.6" fill="#fff" stroke="#807EB8" stroke-width="2.2"/>
+<circle cx="160" cy="-970" r="4.6" fill="#fff" stroke="#807EB8" stroke-width="2.2"/>
+<circle cx="40" cy="-970" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="520" cy="-340" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="520" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="520" cy="-130" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="500" cy="50" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="420" cy="190" r="4.6" fill="#fff" stroke="#E4C2D5" stroke-width="2.2"/>
+<circle cx="420" cy="390" r="4.6" fill="#fff" stroke="#E4C2D5" stroke-width="2.2"/>
+<circle cx="420" cy="600" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="347" cy="800" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="380" cy="920" r="4.6" fill="#fff" stroke="#E4C2D5" stroke-width="2.2"/>
+<circle cx="500" cy="920" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-600" cy="135" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-700" cy="135" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-770" cy="137" r="4.6" fill="#fff" stroke="#C58569" stroke-width="2.2"/>
+<circle cx="-840" cy="137" r="4.6" fill="#fff" stroke="#C58569" stroke-width="2.2"/>
+<circle cx="-910" cy="207" r="4.6" fill="#fff" stroke="#C58569" stroke-width="2.2"/>
+<circle cx="-910" cy="267" r="4.6" fill="#fff" stroke="#C58569" stroke-width="2.2"/>
+<circle cx="-970" cy="287" r="4.6" fill="#fff" stroke="#C58569" stroke-width="2.2"/>
+<circle cx="-1040" cy="287" r="4.6" fill="#fff" stroke="#C58569" stroke-width="2.2"/>
+<circle cx="350" cy="800" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="550" cy="1160" r="4.6" fill="#fff" stroke="#476CAB" stroke-width="2.2"/>
+<circle cx="680" cy="1590" r="4.6" fill="#fff" stroke="#476CAB" stroke-width="2.2"/>
+<circle cx="440" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="440" cy="-340" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="440" cy="-430" r="4.6" fill="#fff" stroke="#E6A0C5" stroke-width="2.2"/>
+<circle cx="440" cy="-520" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="440" cy="-580" r="4.6" fill="#fff" stroke="#E6A0C5" stroke-width="2.2"/>
+<circle cx="440" cy="-640" r="4.6" fill="#fff" stroke="#E6A0C5" stroke-width="2.2"/>
+<circle cx="380" cy="-670" r="4.6" fill="#fff" stroke="#E6A0C5" stroke-width="2.2"/>
+<circle cx="337" cy="-720" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="337" cy="-830" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="338" cy="-1010" r="4.6" fill="#fff" stroke="#E6A0C5" stroke-width="2.2"/>
+<circle cx="380" cy="-1070" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="380" cy="-1150" r="4.6" fill="#fff" stroke="#E6A0C5" stroke-width="2.2"/>
+<circle cx="380" cy="-1230" r="4.6" fill="#fff" stroke="#E6A0C5" stroke-width="2.2"/>
+<circle cx="380" cy="-1310" r="4.6" fill="#fff" stroke="#E6A0C5" stroke-width="2.2"/>
+<circle cx="380" cy="-1390" r="4.6" fill="#fff" stroke="#E6A0C5" stroke-width="2.2"/>
+<circle cx="320" cy="-1440" r="4.6" fill="#fff" stroke="#E6A0C5" stroke-width="2.2"/>
+<circle cx="200" cy="-1440" r="4.6" fill="#fff" stroke="#E6A0C5" stroke-width="2.2"/>
+<circle cx="80" cy="-1440" r="4.6" fill="#fff" stroke="#E6A0C5" stroke-width="2.2"/>
+<circle cx="-60" cy="-1490" r="4.6" fill="#fff" stroke="#E6A0C5" stroke-width="2.2"/>
+<circle cx="-170" cy="-1510" r="4.6" fill="#fff" stroke="#E6A0C5" stroke-width="2.2"/>
+<circle cx="870" cy="800" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="880" cy="890" r="4.6" fill="#fff" stroke="#E34090" stroke-width="2.2"/>
+<circle cx="907" cy="922" r="4.6" fill="#fff" stroke="#E34090" stroke-width="2.2"/>
+<circle cx="934" cy="954" r="4.6" fill="#fff" stroke="#E34090" stroke-width="2.2"/>
+<circle cx="961" cy="986" r="4.6" fill="#fff" stroke="#E34090" stroke-width="2.2"/>
+<circle cx="988" cy="1018" r="4.6" fill="#fff" stroke="#E34090" stroke-width="2.2"/>
+<circle cx="1015" cy="1050" r="4.6" fill="#fff" stroke="#E34090" stroke-width="2.2"/>
+<circle cx="1042" cy="1082" r="4.6" fill="#fff" stroke="#E34090" stroke-width="2.2"/>
+<circle cx="1070" cy="1116" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1200" cy="1140" r="4.6" fill="#fff" stroke="#E34090" stroke-width="2.2"/>
+<circle cx="1325" cy="1140" r="4.6" fill="#fff" stroke="#E34090" stroke-width="2.2"/>
+<circle cx="1450" cy="1140" r="4.6" fill="#fff" stroke="#E34090" stroke-width="2.2"/>
+<circle cx="1610" cy="1140" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1800" cy="1140" r="4.6" fill="#fff" stroke="#E34090" stroke-width="2.2"/>
+<circle cx="130" cy="720" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="80" cy="800" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="35" cy="865" r="4.6" fill="#fff" stroke="#E68D69" stroke-width="2.2"/>
+<circle cx="-10" cy="930" r="4.6" fill="#fff" stroke="#E68D69" stroke-width="2.2"/>
+<circle cx="-60" cy="1000" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-94" cy="1042" r="4.6" fill="#fff" stroke="#E68D69" stroke-width="2.2"/>
+<circle cx="-128" cy="1084" r="4.6" fill="#fff" stroke="#E68D69" stroke-width="2.2"/>
+<circle cx="-162" cy="1126" r="4.6" fill="#fff" stroke="#E68D69" stroke-width="2.2"/>
+<circle cx="-196" cy="1168" r="4.6" fill="#fff" stroke="#E68D69" stroke-width="2.2"/>
+<circle cx="-230" cy="1210" r="4.6" fill="#fff" stroke="#E68D69" stroke-width="2.2"/>
+<circle cx="-264" cy="1254" r="4.6" fill="#fff" stroke="#E68D69" stroke-width="2.2"/>
+<circle cx="-299" cy="1300" r="4.6" fill="#fff" stroke="#E68D69" stroke-width="2.2"/>
+<circle cx="-360" cy="1310" r="4.6" fill="#fff" stroke="#E68D69" stroke-width="2.2"/>
+<circle cx="-450" cy="1310" r="4.6" fill="#fff" stroke="#E68D69" stroke-width="2.2"/>
+<circle cx="-520" cy="1310" r="4.6" fill="#fff" stroke="#E68D69" stroke-width="2.2"/>
+<circle cx="-590" cy="1310" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-590" cy="1310" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-660" cy="1310" r="4.6" fill="#fff" stroke="#E68D69" stroke-width="2.2"/>
+<circle cx="-730" cy="1310" r="4.6" fill="#fff" stroke="#E68D69" stroke-width="2.2"/>
+<circle cx="-800" cy="1310" r="4.6" fill="#fff" stroke="#E68D69" stroke-width="2.2"/>
+<circle cx="-870" cy="1310" r="4.6" fill="#fff" stroke="#E68D69" stroke-width="2.2"/>
+<circle cx="-950" cy="1310" r="4.6" fill="#fff" stroke="#E68D69" stroke-width="2.2"/>
+<circle cx="-1020" cy="1310" r="4.6" fill="#fff" stroke="#E68D69" stroke-width="2.2"/>
+<circle cx="-1060" cy="1280" r="4.6" fill="#fff" stroke="#E68D69" stroke-width="2.2"/>
+<circle cx="-1100" cy="1240" r="4.6" fill="#fff" stroke="#E68D69" stroke-width="2.2"/>
+<circle cx="870" cy="-70" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1000" cy="-70" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1200" cy="-250" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="1770" cy="-930" r="4.6" fill="#fff" stroke="#AEA7C4" stroke-width="2.2"/>
+<circle cx="1614" cy="-930" r="4.6" fill="#fff" stroke="#AEA7C4" stroke-width="2.2"/>
+<circle cx="-30" cy="-340" r="7.5" fill="#fff" stroke="#2b2f36" stroke-width="2.6"/>
+<circle cx="-130" cy="-450" r="4.6" fill="#fff" stroke="#E6465A" stroke-width="2.2"/>
+<circle cx="-210" cy="-450" r="4.6" fill="#fff" stroke="#E6465A" stroke-width="2.2"/>
+<circle cx="-280" cy="-520" r="4.6" fill="#fff" stroke="#E6465A" stroke-width="2.2"/>
+<circle cx="-310" cy="-560" r="4.6" fill="#fff" stroke="#E6465A" stroke-width="2.2"/>
+<circle cx="-440" cy="-560" r="4.6" fill="#fff" stroke="#E6465A" stroke-width="2.2"/>
+<circle cx="1230" cy="956" r="4.6" fill="#fff" stroke="#D74F5B" stroke-width="2.2"/>
+<circle cx="1190" cy="996" r="4.6" fill="#fff" stroke="#D74F5B" stroke-width="2.2"/>
+<circle cx="1150" cy="1036" r="4.6" fill="#fff" stroke="#D74F5B" stroke-width="2.2"/>
+<circle cx="1110" cy="1076" r="4.6" fill="#fff" stroke="#D74F5B" stroke-width="2.2"/>
+<circle cx="1030" cy="1160" r="4.6" fill="#fff" stroke="#D74F5B" stroke-width="2.2"/>
+<circle cx="1030" cy="1200" r="4.6" fill="#fff" stroke="#D74F5B" stroke-width="2.2"/>
+<circle cx="1030" cy="1240" r="4.6" fill="#fff" stroke="#D74F5B" stroke-width="2.2"/>
+<circle cx="1030" cy="1280" r="4.6" fill="#fff" stroke="#D74F5B" stroke-width="2.2"/>
+<circle cx="1030" cy="1320" r="4.6" fill="#fff" stroke="#D74F5B" stroke-width="2.2"/>
+<circle cx="1030" cy="1360" r="4.6" fill="#fff" stroke="#D74F5B" stroke-width="2.2"/>
+<circle cx="1030" cy="1400" r="4.6" fill="#fff" stroke="#D74F5B" stroke-width="2.2"/>
+<circle cx="1030" cy="1440" r="4.6" fill="#fff" stroke="#D74F5B" stroke-width="2.2"/>
+<circle cx="1030" cy="1480" r="4.6" fill="#fff" stroke="#D74F5B" stroke-width="2.2"/>
+<text x="-600" y="122" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">苹果园</text>
+<text x="1970" y="707" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">环球度假区</text>
+<text x="20" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">公主坟</text>
+<text x="110" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">军事博物馆</text>
+<text x="240" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">木樨地</text>
+<text x="370" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">复兴门</text>
+<text x="500" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">西单</text>
+<text x="760" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">王府井</text>
+<text x="870" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">东单</text>
+<text x="1000" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">建国门</text>
+<text x="1110" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">永安里</text>
+<text x="1200" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">国贸</text>
+<text x="1320" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">大望路</text>
+<text x="2090" y="647" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">花庄</text>
+<text x="370" y="-83" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">西直门</text>
+<text x="370" y="37" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">车公庄</text>
+<text x="520" y="-143" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">积水潭</text>
+<text x="680" y="-143" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">鼓楼大街</text>
+<text x="870" y="-143" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">雍和宫</text>
+<text x="1000" y="-83" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">东直门</text>
+<text x="1000" y="7" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">东四十条</text>
+<text x="1000" y="97" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">朝阳门</text>
+<text x="1000" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">建国门</text>
+<text x="870" y="337" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">崇文门</text>
+<text x="720" y="337" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">前门</text>
+<text x="500" y="337" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">宣武门</text>
+<text x="370" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">复兴门</text>
+<text x="1000" y="7" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">东四十条</text>
+<text x="1580" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">东坝北</text>
+<text x="1110" y="7" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">工人体育场</text>
+<text x="1200" y="7" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">团结湖</text>
+<text x="1320" y="7" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">朝阳公园</text>
+<text x="-140" y="-743" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">安河桥北</text>
+<text x="300" y="1527" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">天宫院</text>
+<text x="40" y="-743" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">西苑</text>
+<text x="110" y="-353" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">海淀黄庄</text>
+<text x="110" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">人民大学</text>
+<text x="110" y="-123" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">国家图书馆</text>
+<text x="370" y="-83" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">西直门</text>
+<text x="500" y="37" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">平安里</text>
+<text x="500" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">西单</text>
+<text x="500" y="337" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">宣武门</text>
+<text x="500" y="427" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">菜市口</text>
+<text x="500" y="587" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">北京南站</text>
+<text x="500" y="787" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">角门西</text>
+<text x="500" y="907" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">新宫</text>
+<text x="870" y="-1093" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">天通苑北</text>
+<text x="870" y="787" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">宋家庄</text>
+<text x="870" y="-983" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">天通苑</text>
+<text x="870" y="-863" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">立水桥</text>
+<text x="870" y="-533" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">大屯路东</text>
+<text x="870" y="-353" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">惠新西街南口</text>
+<text x="870" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">和平西桥</text>
+<text x="870" y="-143" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">雍和宫</text>
+<text x="870" y="-83" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">北新桥</text>
+<text x="870" y="97" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">东四</text>
+<text x="870" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">东单</text>
+<text x="870" y="337" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">崇文门</text>
+<text x="870" y="427" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">磁器口</text>
+<text x="870" y="587" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">蒲黄榆</text>
+<text x="-700" y="122" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">金安桥</text>
+<text x="2420" y="267" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">潞阳</text>
+<text x="-600" y="122" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">苹果园</text>
+<text x="-70" y="37" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">慈寿寺</text>
+<text x="110" y="37" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">白石桥南</text>
+<text x="240" y="37" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">二里沟</text>
+<text x="370" y="37" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">车公庄</text>
+<text x="500" y="37" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">平安里</text>
+<text x="710" y="37" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">南锣鼓巷</text>
+<text x="870" y="97" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">东四</text>
+<text x="1000" y="97" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">朝阳门</text>
+<text x="1110" y="97" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">东大桥</text>
+<text x="1200" y="97" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">呼家楼</text>
+<text x="1320" y="97" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">金台路</text>
+<text x="110" y="357" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">北京西站</text>
+<text x="1970" y="707" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">环球度假区</text>
+<text x="240" y="427" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">达官营</text>
+<text x="500" y="427" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">菜市口</text>
+<text x="680" y="427" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">珠市口</text>
+<text x="870" y="427" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">磁器口</text>
+<text x="1200" y="427" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">双井</text>
+<text x="1320" y="427" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">九龙山</text>
+<text x="2090" y="647" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">花庄</text>
+<text x="380" y="-1083" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">朱辛庄</text>
+<text x="910" y="1277" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">瀛海</text>
+<text x="590" y="-983" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">回龙观东大街</text>
+<text x="590" y="-863" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">霍营</text>
+<text x="680" y="-533" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">奥林匹克公园</text>
+<text x="680" y="-353" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">北土城</text>
+<text x="680" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">安华桥</text>
+<text x="680" y="-143" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">鼓楼大街</text>
+<text x="710" y="37" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">南锣鼓巷</text>
+<text x="760" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">王府井</text>
+<text x="720" y="337" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">前门</text>
+<text x="680" y="427" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">珠市口</text>
+<text x="680" y="587" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">永定门外</text>
+<text x="680" y="787" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">大红门</text>
+<text x="-60" y="987" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">郭公庄</text>
+<text x="110" y="-123" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">国家图书馆</text>
+<text x="-60" y="707" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">丰台南路</text>
+<text x="-40" y="587" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">七里庄</text>
+<text x="20" y="497" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">六里桥</text>
+<text x="110" y="357" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">北京西站</text>
+<text x="110" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">军事博物馆</text>
+<text x="110" y="37" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">白石桥南</text>
+<text x="20" y="707" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">丰台站</text>
+<text x="80" y="787" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">首经贸</text>
+<text x="20" y="587" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">西局</text>
+<text x="20" y="497" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">六里桥</text>
+<text x="20" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">公主坟</text>
+<text x="-70" y="37" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">慈寿寺</text>
+<text x="-70" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">长春桥</text>
+<text x="-30" y="-353" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">巴沟</text>
+<text x="40" y="-353" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">苏州街</text>
+<text x="110" y="-353" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">海淀黄庄</text>
+<text x="340" y="-353" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">知春路</text>
+<text x="440" y="-353" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">西土城</text>
+<text x="520" y="-353" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">牡丹园</text>
+<text x="680" y="-353" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">北土城</text>
+<text x="870" y="-353" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">惠新西街南口</text>
+<text x="1030" y="-353" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">芍药居</text>
+<text x="1110" y="-353" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">太阳宫</text>
+<text x="1200" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">三元桥</text>
+<text x="1200" y="7" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">团结湖</text>
+<text x="1200" y="97" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">呼家楼</text>
+<text x="1200" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">国贸</text>
+<text x="1200" y="427" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">双井</text>
+<text x="1200" y="587" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">十里河</text>
+<text x="870" y="787" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">宋家庄</text>
+<text x="680" y="787" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">大红门</text>
+<text x="500" y="787" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">角门西</text>
+<text x="347" y="787" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">草桥</text>
+<text x="-700" y="2" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">模式口</text>
+<text x="-700" y="277" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">新首钢</text>
+<text x="-700" y="122" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">金安桥</text>
+<text x="1580" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">东坝北</text>
+<text x="-150" y="-83" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">四季青桥</text>
+<text x="1200" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">三元桥</text>
+<text x="1110" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">西坝河</text>
+<text x="1030" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">光熙门</text>
+<text x="870" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">和平西桥</text>
+<text x="680" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">安华桥</text>
+<text x="520" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">北太平庄</text>
+<text x="440" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">蓟门桥</text>
+<text x="340" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">大钟寺</text>
+<text x="110" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">人民大学</text>
+<text x="40" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">苏州桥</text>
+<text x="-70" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">长春桥</text>
+<text x="370" y="-83" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">西直门</text>
+<text x="1000" y="-83" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">东直门</text>
+<text x="340" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">大钟寺</text>
+<text x="340" y="-353" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">知春路</text>
+<text x="337" y="-733" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">清河站</text>
+<text x="337" y="-843" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">西二旗</text>
+<text x="590" y="-863" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">霍营</text>
+<text x="870" y="-863" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">立水桥</text>
+<text x="1030" y="-533" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">望京西</text>
+<text x="1030" y="-353" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">芍药居</text>
+<text x="1030" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">光熙门</text>
+<text x="1220" y="-753" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">善各庄</text>
+<text x="-560" y="587" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">张郭庄</text>
+<text x="1220" y="-533" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">望京</text>
+<text x="1320" y="7" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">朝阳公园</text>
+<text x="1320" y="97" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">金台路</text>
+<text x="1320" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">大望路</text>
+<text x="1320" y="427" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">九龙山</text>
+<text x="1200" y="587" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">十里河</text>
+<text x="870" y="587" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">蒲黄榆</text>
+<text x="680" y="587" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">永定门外</text>
+<text x="500" y="587" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">北京南站</text>
+<text x="420" y="587" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">景风门</text>
+<text x="240" y="587" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">丽泽商务区</text>
+<text x="20" y="587" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">西局</text>
+<text x="-40" y="587" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">七里庄</text>
+<text x="380" y="-533" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">清华东路西口</text>
+<text x="1830" y="-1073" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">俸伯</text>
+<text x="440" y="-533" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">六道口</text>
+<text x="680" y="-533" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">奥林匹克公园</text>
+<text x="870" y="-533" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">大屯路东</text>
+<text x="1030" y="-533" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">望京西</text>
+<text x="1220" y="-533" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">望京</text>
+<text x="-420" y="-1103" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">北安河</text>
+<text x="-440" y="707" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">宛平城</text>
+<text x="40" y="-983" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">马连洼</text>
+<text x="40" y="-743" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">西苑</text>
+<text x="40" y="-353" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">苏州街</text>
+<text x="40" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">苏州桥</text>
+<text x="110" y="-123" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">国家图书馆</text>
+<text x="240" y="37" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">二里沟</text>
+<text x="240" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">木樨地</text>
+<text x="240" y="427" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">达官营</text>
+<text x="240" y="587" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">丽泽商务区</text>
+<text x="130" y="707" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">东管头南</text>
+<text x="20" y="707" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">丰台站</text>
+<text x="-60" y="707" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">丰台南路</text>
+<text x="1680" y="1217" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">嘉会湖</text>
+<text x="980" y="-1323" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">未来科学城北</text>
+<text x="1610" y="1127" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">次渠</text>
+<text x="1200" y="587" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">十里河</text>
+<text x="1110" y="207" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">永安里</text>
+<text x="1110" y="97" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">东大桥</text>
+<text x="1110" y="7" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">工人体育场</text>
+<text x="1110" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">西坝河</text>
+<text x="1110" y="-353" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">太阳宫</text>
+<text x="1030" y="-533" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">望京西</text>
+<text x="980" y="-983" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">天通苑东</text>
+<text x="980" y="-983" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">天通苑东</text>
+<text x="40" y="-983" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">马连洼</text>
+<text x="870" y="-983" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">天通苑</text>
+<text x="590" y="-983" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">回龙观东大街</text>
+<text x="520" y="-353" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">牡丹园</text>
+<text x="500" y="907" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">新宫</text>
+<text x="520" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">北太平庄</text>
+<text x="520" y="-143" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">积水潭</text>
+<text x="500" y="37" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">平安里</text>
+<text x="420" y="587" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">景风门</text>
+<text x="347" y="787" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">草桥</text>
+<text x="-600" y="122" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">苹果园</text>
+<text x="-1040" y="274" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">石厂</text>
+<text x="-700" y="122" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">金安桥</text>
+<text x="350" y="787" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">草桥</text>
+<text x="680" y="1577" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">大兴机场</text>
+<text x="440" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">蓟门桥</text>
+<text x="-170" y="-1523" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">昌平西山口</text>
+<text x="440" y="-353" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">西土城</text>
+<text x="440" y="-533" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">六道口</text>
+<text x="337" y="-733" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">清河站</text>
+<text x="337" y="-843" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">西二旗</text>
+<text x="380" y="-1083" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">朱辛庄</text>
+<text x="870" y="787" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">宋家庄</text>
+<text x="1800" y="1127" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">亦庄火车站</text>
+<text x="1070" y="1103" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">荣昌东街</text>
+<text x="1610" y="1127" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">次渠</text>
+<text x="130" y="707" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">东管头南</text>
+<text x="-590" y="1297" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">阎村东</text>
+<text x="80" y="787" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">首经贸</text>
+<text x="-60" y="987" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">郭公庄</text>
+<text x="-590" y="1297" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">阎村东</text>
+<text x="-1100" y="1227" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">燕山</text>
+<text x="870" y="-83" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">北新桥</text>
+<text x="1614" y="-943" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">2号航站楼</text>
+<text x="1000" y="-83" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">东直门</text>
+<text x="1200" y="-263" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">三元桥</text>
+<text x="-30" y="-353" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">巴沟</text>
+<text x="-440" y="-573" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">香山</text>
+<text x="1230" y="943" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">定海园</text>
+<text x="1030" y="1467" text-anchor="middle" font-size="12" font-weight="400" fill="#4b5563" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">屈庄(奔驰南)</text>
+<text x="1070" y="1103" text-anchor="middle" font-size="13" font-weight="600" fill="#1b1d21" paint-order="stroke" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round">荣昌东街</text>
+</g>
+</svg>

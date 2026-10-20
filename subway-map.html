@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>地铁示意图 · 本地数据集</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --panel:#fff; --line:#e6e8ec; --ink:#1b1d21;
+    --ink2:#6b7280; --ink3:#9aa1ab; --ok:#12a150; --warn:#d98200; --err:#d64545;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0}
+  body{
+    font:13px/1.5 -apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    color:var(--ink); background:var(--bg);
+    display:flex; flex-direction:column; overflow:hidden;
+  }
+  header{
+    background:var(--panel); border-bottom:1px solid var(--line);
+    padding:11px 20px; display:flex; align-items:center; gap:12px; flex-wrap:wrap;
+  }
+  header h1{font-size:15px; margin:0 4px 0 0; font-weight:600; letter-spacing:.2px; white-space:nowrap}
+  select{
+    font:inherit; font-size:12.5px; color:var(--ink); background:#fff;
+    border:1px solid var(--line); border-radius:6px; padding:4px 8px;
+    min-width:190px; max-width:260px; cursor:pointer;
+  }
+  select:disabled{color:var(--ink3); background:#fafbfc; cursor:not-allowed}
+  select:focus{outline:2px solid #cfdcff; outline-offset:-1px; border-color:#b9c9f0}
+  .badge{
+    display:inline-flex; align-items:center; gap:6px; font-size:11.5px;
+    border:1px solid var(--line); border-radius:6px; padding:3px 8px; color:var(--ink2);
+    background:#fbfbfc; white-space:nowrap;
+  }
+  .badge .d{width:7px;height:7px;border-radius:50%;background:var(--ink3);flex:none}
+  .badge.ok .d{background:var(--ok); box-shadow:0 0 0 3px rgba(18,161,80,.14)}
+  .badge.warn .d{background:var(--warn); box-shadow:0 0 0 3px rgba(217,130,0,.14)}
+  .badge.err .d{background:var(--err); box-shadow:0 0 0 3px rgba(214,69,69,.14)}
+  .file{
+    font-family:ui-monospace,SFMono-Regular,Consolas,monospace; font-size:11px;
+    color:var(--ink2); background:#f2f4f7; border:1px solid var(--line);
+    padding:3px 8px; border-radius:6px; max-width:34vw; overflow:hidden;
+    text-overflow:ellipsis; white-space:nowrap;
+  }
+  button{
+    font:inherit; font-size:11.5px; color:var(--ink); background:#fff;
+    border:1px solid var(--line); border-radius:6px; padding:4px 10px; cursor:pointer;
+  }
+  button:hover{border-color:#c9ced6; background:#fafbfc}
+  .spacer{flex:1}
+  .stat{font-size:11.5px; color:var(--ink3); white-space:nowrap}
+  .stat b{color:var(--ink); font-weight:600}
+  main{flex:1; display:flex; min-height:0}
+  aside{
+    width:230px; flex:none; background:var(--panel); border-right:1px solid var(--line);
+    overflow-y:auto; padding:10px 0;
+  }
+  aside .hd{font-size:11px; color:var(--ink3); padding:4px 16px 8px; letter-spacing:.6px}
+  .row{display:flex; align-items:center; gap:9px; padding:5px 16px; cursor:pointer}
+  .row:hover{background:#f2f5ff}
+  .row .dot{width:12px;height:12px;border-radius:3px;flex:none}
+  .row .nm{flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:12.5px}
+  .row .ct{font-size:10.5px; color:var(--ink3); font-variant-numeric:tabular-nums}
+  .stage{flex:1; position:relative; min-width:0; background:var(--panel)}
+  svg{width:100%; height:100%; display:block; cursor:grab}
+  svg.drag{cursor:grabbing}
+  .stn{cursor:pointer}
+  .tip{
+    position:absolute; pointer-events:none; z-index:5;
+    background:#1b1d21; color:#fff; font-size:11.5px; line-height:1.45;
+    padding:6px 9px; border-radius:6px; white-space:nowrap; opacity:0;
+    transform:translate(-50%,-140%); transition:opacity .1s;
+  }
+  .tip.on{opacity:1}
+  .tip i{font-style:normal; color:#9aa1ab; font-family:ui-monospace,Consolas,monospace}
+  .hint{
+    position:absolute; left:14px; bottom:12px; font-size:11px; color:var(--ink3);
+    background:rgba(255,255,255,.9); border:1px solid var(--line);
+    padding:4px 9px; border-radius:6px;
+  }
+  /* 覆盖层：file:// 引导 / 空数据 / 加载失败 */
+  .overlay{
+    position:absolute; inset:0; z-index:9; display:none;
+    align-items:center; justify-content:center; background:rgba(255,255,255,.86);
+    padding:24px;
+  }
+  .overlay.on{display:flex}
+  .card{
+    max-width:560px; background:#fff; border:1px solid var(--line);
+    border-radius:10px; padding:22px 24px; box-shadow:0 6px 24px rgba(20,25,40,.07);
+  }
+  .card h2{margin:0 0 8px; font-size:14.5px; font-weight:600}
+  .card p{margin:0 0 10px; font-size:12.5px; color:var(--ink2); line-height:1.65}
+  .card p:last-child{margin-bottom:0}
+  .card code, .card pre{
+    font-family:ui-monospace,SFMono-Regular,Consolas,monospace; font-size:11.5px;
+    background:#f4f6f9; border:1px solid var(--line); border-radius:5px;
+  }
+  .card code{padding:1px 5px}
+  .card pre{margin:0 0 10px; padding:9px 11px; overflow:auto; color:#2b2f36}
+  .card .cmd{color:#0b5fbe}
+  .card .why{font-size:11.5px; color:var(--ink3); border-top:1px dashed var(--line); padding-top:10px}
+  .card.err h2{color:var(--err)}
+</style>
+</head>
+<body>
+<header>
+  <h1>地铁示意图</h1>
+  <select id="city" disabled><option>正在读取城市列表…</option></select>
+  <span class="badge" id="badge"><i class="d"></i><span id="badge-t">初始化…</span></span>
+  <span class="file" id="file">—</span>
+  <span class="spacer"></span>
+  <span class="stat">线路 <b id="s-l">–</b> · 站点 <b id="s-s">–</b> · 图形版本 <b id="s-v">–</b></span>
+  <button id="reload">重新加载</button>
+</header>
+<main>
+  <aside>
+    <div class="hd" id="legend-hd">线路图例（悬停高亮 · 点击定位）</div>
+    <div id="legend"></div>
+  </aside>
+  <div class="stage">
+    <svg id="cv"><g id="root"></g></svg>
+    <div class="tip" id="tip"></div>
+    <div class="hint">滚轮缩放 · 拖拽平移 · 悬停站点查看 uid</div>
+    <div class="overlay" id="overlay"><div class="card" id="overlay-card"></div></div>
+  </div>
+</main>
+<script>
+/* ============================================================
+   纯静态版：不连任何后端，也不内联数据。
+   数据全部来自本地 data/ 目录，必须通过本地服务打开（见 serve.bat）；
+   file:// 下浏览器会拦截 fetch('./data/*.json')，所以直接弹引导层。
+
+     data/index.json       抓取清单（哪些城市可选 / 置灰及原因 / 数据版本）
+     data/city-<code>.json 单城市原始接口响应（由 tools/fetch-subways.py 抓取）
+   ============================================================ */
+const IS_FILE = location.protocol === 'file:';
+const DEFAULT_CODE = 131;
+const GROUP_ORDER = ['国内', '中国港澳台', '海外'];
+
+const SVGNS = 'http://www.w3.org/2000/svg';
+const el = (t, a) => { const n = document.createElementNS(SVGNS, t); for (const k in a) n.setAttribute(k, a[k]); return n; };
+
+const $ = id => document.getElementById(id);
+const root = $('root'), svg = $('cv'), tip = $('tip'), legend = $('legend');
+const badge = $('badge'), badgeT = $('badge-t'), fileEl = $('file'), sel = $('city');
+
+let INDEX = null;                 // data/index.json
+const cache = new Map();          // code -> 归一化后的数据
+let current = null;               // { code, name, data }
+let pending = null;               // 正在加载的城市 code（避免 hashchange 触发重复请求）
+
+/* ---------- 覆盖层 ---------- */
+function showOverlay(html, isErr) {
+  $('overlay-card').className = 'card' + (isErr ? ' err' : '');
+  $('overlay-card').innerHTML = html;
+  $('overlay').classList.add('on');
+}
+function hideOverlay() { $('overlay').classList.remove('on'); }
+
+function guideHtml() {
+  return [
+    '<h2>请用本地服务打开这个页面</h2>',
+    '<p>你正以 <code>file://</code> 方式直接打开文件。浏览器会拦截本地页面对本地 JSON 的读取（页面 origin 为 <code>null</code>，属于跨源请求），所以城市数据加载不了。</p>',
+    '<p>在项目目录下双击 <code>serve.bat</code>，或者手动执行：</p>',
+    '<pre><span class="cmd">python -m http.server 8000</span>\n然后访问 <span class="cmd">http://localhost:8000/subway-map.html</span></pre>',
+    '<p class="why">数据文件：<code>data/index.json</code> 与 <code>data/city-&lt;城市代码&gt;.json</code>；抓取用 <code>python tools/fetch-subways.py</code>。</p>'
+  ].join('');
+}
+
+/* ---------- 原始接口返回 → 统一模型 ---------- */
+function normalize(raw) {
+  const sw = raw.subways || {};
+  const lines = (sw.l || []).map(it => {
+    const meta = it.l_xmlattr || {};
+    let color = meta.lc;
+    if (typeof color === 'string') color = '#' + color.slice(2).padStart(6, '0');
+    const pts = (it.p || []).map(p => {
+      const a = p.p_xmlattr || {};
+      return { x: a.x, y: a.y, n: a.sid || '', st: a.st ? 1 : 0, ex: a.ex ? 1 : 0, uid: a.uid || '' };
+    });
+    return { id: meta.lid, name: meta.lb, n: meta.n, loop: !!meta.loop, color: color, pts: pts };
+  });
+  return {
+    city: (sw.sw_xmlattr || {}).cid || '',
+    ver: (sw.sw_xmlattr || {}).version || '',
+    lines: lines,
+  };
+}
+
+/* ---------- 取数 ---------- */
+async function getJSON(url) {
+  const res = await fetch(url, { cache: 'no-store' });
+  if (!res.ok) {
+    const e = new Error('HTTP ' + res.status);
+    e.status = res.status;
+    throw e;
+  }
+  return res.json();
+}
+
+async function loadCity(code) {
+  if (cache.has(code)) return cache.get(code);
+  const raw = await getJSON('./data/city-' + code + '.json');
+  const data = normalize(raw);
+  cache.set(code, data);
+  return data;
+}
+
+/* ---------- 渲染 ---------- */
+function render(data, name) {
+  root.innerHTML = '';
+  legend.innerHTML = '';
+  tip.classList.remove('on');
+
+  const lines = data.lines || [];
+  if (!lines.length) {
+    $('s-l').textContent = '0';
+    $('s-s').textContent = '0';
+    $('s-v').textContent = '—';
+    $('legend-hd').textContent = name + ' 线路';
+    showOverlay('<h2>' + name + ' 暂无地铁示意图数据</h2>' +
+      '<p>接口对该城市返回了空的线路列表，通常是当地还没有纳入地铁示意图的城市。</p>' +
+      '<p class="why">文件：<code>data/city-' + current.code + '.json</code></p>');
+    return;
+  }
+  hideOverlay();
+
+  let minX = 1e9, minY = 1e9, maxX = -1e9, maxY = -1e9;
+  lines.forEach(L => L.pts.forEach(p => {
+    minX = Math.min(minX, p.x); maxX = Math.max(maxX, p.x);
+    minY = Math.min(minY, p.y); maxY = Math.max(maxY, p.y);
+  }));
+  const minW = 200;
+  if (maxX - minX < minW) { const c = (minX + maxX) / 2; minX = c - minW / 2; maxX = c + minW / 2; }
+  if (maxY - minY < minW) { const c = (minY + maxY) / 2; minY = c - minW / 2; maxY = c + minW / 2; }
+  const PAD = 90;
+  const fit = { x: minX - PAD, y: minY - PAD, w: (maxX - minX) + PAD * 2, h: (maxY - minY) + PAD * 2 };
+
+  const gLines = el('g', { fill: 'none', 'stroke-linejoin': 'round', 'stroke-linecap': 'round' });
+  const gStns = el('g', {});
+  const gText = el('g', {});
+  root.append(gLines, gStns, gText);
+
+  const lineNodes = [], stnNodes = [];
+
+  lines.forEach((L, li) => {
+    const pl = el('polyline', {
+      points: L.pts.map(p => p.x + ',' + p.y).join(' '),
+      stroke: L.color, 'stroke-width': 6, opacity: .95,
+      'data-li': li
+    });
+    gLines.appendChild(pl);
+    lineNodes.push(pl);
+
+    L.pts.forEach(p => {
+      if (!p.st || !p.n) return;
+      const c = el('circle', {
+        cx: p.x, cy: p.y, r: p.ex ? 7.5 : 4.6,
+        fill: '#fff', stroke: p.ex ? '#2b2f36' : L.color,
+        'stroke-width': p.ex ? 2.6 : 2.2, class: 'stn', 'data-li': li
+      });
+      c.addEventListener('mouseenter', e => {
+        const b = e.target.getBoundingClientRect();
+        const s = document.querySelector('.stage').getBoundingClientRect();
+        tip.innerHTML = p.n + (p.ex ? ' · 换乘站' : '') + '<br><i>' + (p.uid || '—') + '</i>';
+        tip.style.left = (b.left - s.left + b.width / 2) + 'px';
+        tip.style.top = (b.top - s.top + b.height / 2) + 'px';
+        tip.classList.add('on');
+      });
+      c.addEventListener('mouseleave', () => tip.classList.remove('on'));
+      gStns.appendChild(c);
+      stnNodes.push(c);
+    });
+
+    // 标注：首末站 + 换乘站
+    const named = L.pts.filter(p => p.st && p.n);
+    if (named.length) {
+      const marks = [named[0], named[named.length - 1]].concat(L.pts.filter(p => p.ex && p.n));
+      const seen = new Set();
+      marks.forEach(p => {
+        const key = p.x + '|' + p.y;
+        if (seen.has(key)) return;
+        seen.add(key);
+        const t = el('text', {
+          x: p.x, y: p.y - 13, 'text-anchor': 'middle',
+          'font-size': p.ex ? 13 : 12, fill: p.ex ? '#1b1d21' : '#4b5563',
+          'font-weight': p.ex ? 600 : 400, 'paint-order': 'stroke',
+          stroke: '#fff', 'stroke-width': 3.4, 'stroke-linejoin': 'round',
+          'data-li': li
+        });
+        t.textContent = p.n;
+        gText.appendChild(t);
+      });
+    }
+  });
+
+  const stnSet = new Set();
+  lines.forEach(L => L.pts.forEach(p => {
+    if (p.st && p.n) stnSet.add(p.n + '|' + Math.round(p.x) + '|' + Math.round(p.y));
+  }));
+  $('s-l').textContent = lines.length;
+  $('s-s').textContent = stnSet.size;
+  $('s-v').textContent = data.ver ? data.ver.slice(0, 8) : '—';
+  $('legend-hd').textContent = name + ' · ' + lines.length + ' 条线路（悬停高亮）';
+
+  lines.forEach((L, i) => {
+    const row = document.createElement('div');
+    row.className = 'row';
+    row.innerHTML = '<span class="dot" style="background:' + L.color + '"></span>' +
+                    '<span class="nm"></span><span class="ct"></span>';
+    row.querySelector('.nm').textContent = L.name + (L.loop ? '（环）' : '');
+    row.querySelector('.ct').textContent = L.n;
+    const hi = on => {
+      // 一律用 data-li 归属判断，避免依赖节点插入顺序
+      lineNodes.forEach(n => n.setAttribute('opacity', on ? (n.getAttribute('data-li') == i ? .95 : .1) : .95));
+      stnNodes.forEach(n => n.setAttribute('opacity', on ? (n.getAttribute('data-li') == i ? 1 : .12) : 1));
+      Array.prototype.forEach.call(gText.children, n => n.setAttribute('opacity', on ? (n.getAttribute('data-li') == i ? 1 : .1) : 1));
+    };
+    row.addEventListener('mouseenter', () => hi(true));
+    row.addEventListener('mouseleave', () => hi(false));
+    row.addEventListener('click', () => { hi(false); zoomTo(L); });
+    legend.appendChild(row);
+  });
+
+  // 缩放 / 平移
+  let view = { x: fit.x, y: fit.y, w: fit.w, h: fit.h };
+  const apply = () => svg.setAttribute('viewBox', view.x + ' ' + view.y + ' ' + view.w + ' ' + view.h);
+  apply();
+
+  svg.onwheel = e => {
+    e.preventDefault();
+    const r = svg.getBoundingClientRect();
+    const mx = view.x + (e.clientX - r.left) / r.width * view.w;
+    const my = view.y + (e.clientY - r.top) / r.height * view.h;
+    const k = Math.exp(e.deltaY * 0.0012);
+    view.w *= k; view.h *= k;
+    view.x = mx - (mx - view.x) * k;
+    view.y = my - (my - view.y) * k;
+    apply();
+  };
+  let drag = null;
+  svg.onpointerdown = e => {
+    drag = { x: e.clientX, y: e.clientY, vx: view.x, vy: view.y };
+    svg.classList.add('drag');
+    svg.setPointerCapture(e.pointerId);
+  };
+  svg.onpointermove = e => {
+    if (!drag) return;
+    const r = svg.getBoundingClientRect();
+    view.x = drag.vx - (e.clientX - drag.x) / r.width * view.w;
+    view.y = drag.vy - (e.clientY - drag.y) / r.height * view.h;
+    apply();
+  };
+  svg.onpointerup = () => { drag = null; svg.classList.remove('drag'); };
+
+  function zoomTo(L) {
+    const xs = L.pts.map(p => p.x), ys = L.pts.map(p => p.y);
+    const x0 = Math.min.apply(null, xs), x1 = Math.max.apply(null, xs);
+    const y0 = Math.min.apply(null, ys), y1 = Math.max.apply(null, ys);
+    const w = Math.max(x1 - x0, 260) * 1.5, h = Math.max(y1 - y0, 260) * 1.5;
+    view = { x: (x0 + x1) / 2 - w / 2, y: (y0 + y1) / 2 - h / 2, w: w, h: h };
+    apply();
+  }
+}
+
+/* ---------- 状态 ---------- */
+function setBadge(kind, text) {
+  badge.className = 'badge ' + kind;
+  badgeT.textContent = text;
+}
+
+/* ---------- 城市下拉 ---------- */
+function cityInfo(code) {
+  if (!INDEX) return null;
+  return INDEX.cities.filter(c => String(c.code) === String(code))[0] || null;
+}
+
+function buildSelect(cities) {
+  sel.innerHTML = '';
+  GROUP_ORDER.forEach(g => {
+    const list = cities.filter(c => c.group === g);
+    if (!list.length) return;
+    const og = document.createElement('optgroup');
+    og.label = g + '（' + list.length + '）';
+    list.forEach(c => {
+      const o = document.createElement('option');
+      o.value = c.code;
+      o.disabled = !c.ok;
+      o.title = c.ok
+        ? (c.lines + ' 条线路 / ' + c.stations + ' 站 · ' + (c.bytes / 1024).toFixed(1) + ' KB')
+        : (c.reason === 'empty' ? '接口返回空数据：该城市暂无地铁示意图' : ('未下载：' + (c.reason || '未抓取，请跑 tools/fetch-subways.py')));
+      o.textContent = c.cn_name + (c.ok ? ' · ' + c.lines + '线' : (c.reason === 'empty' ? ' · 无数据' : ' · 未下载'));
+      og.appendChild(o);
+    });
+    sel.appendChild(og);
+  });
+  return cities.filter(c => c.ok).length;
+}
+
+/* ---------- 切换城市 ---------- */
+async function selectCity(code, pushHash) {
+  const info = cityInfo(code);
+  const name = info ? info.cn_name : ('城市 ' + code);
+  code = String(code);
+
+  if (pushHash) {
+    const h = '#' + code;
+    if (location.hash !== h) location.hash = h;
+  }
+  sel.value = code;
+  pending = code;
+
+  setBadge('warn', '读取中…');
+  fileEl.textContent = 'data/city-' + code + '.json';
+
+  try {
+    const data = await loadCity(code);
+    current = { code: code, name: name, data: data };
+    pending = null;
+    setBadge('ok', '已加载' + (info && info.bytes ? ' · ' + (info.bytes / 1024).toFixed(1) + ' KB' : ''));
+    fileEl.textContent = 'data/city-' + code + '.json';
+    if (INDEX && INDEX.dataVersion) {
+      fileEl.title = '数据版本 ' + INDEX.dataVersion + ' · 抓取于 ' + INDEX.generatedAt;
+    }
+    document.title = name + '地铁示意图 · 本地数据集';
+    render(data, name);
+  } catch (e) {
+    const missing = e.status === 404;
+    current = { code: code, name: name, data: null };
+    pending = null;
+    setBadge('err', missing ? '文件不存在' : '加载失败');
+    $('s-l').textContent = '–';
+    $('s-s').textContent = '–';
+    $('s-v').textContent = '–';
+    legend.innerHTML = '';
+    root.innerHTML = '';
+    showOverlay(
+      '<h2>' + (missing ? '找不到该城市的数据文件' : '加载失败') + '</h2>' +
+      '<p>' + (missing
+        ? '缺少 <code>data/city-' + code + '.json</code>。在项目目录下执行下面这条命令补抓即可：'
+        : '请求出错：<code>' + String(e.message || e) + '</code>。') + '</p>' +
+      (missing ? '<pre><span class="cmd">python tools/fetch-subways.py --only ' + code + '</span></pre>' : '') +
+      '<p class="why">确认页面是通过本地服务打开的（<code>serve.bat</code> 或 <code>python -m http.server 8000</code>）。</p>',
+      true
+    );
+  }
+}
+
+/* ---------- 启动 ---------- */
+async function boot() {
+  if (IS_FILE) {
+    sel.disabled = true;
+    setBadge('err', 'file:// 打开');
+    fileEl.textContent = '无法读取本地 JSON';
+    $('legend-hd').textContent = '线路图例';
+    showOverlay(guideHtml(), true);
+    return;
+  }
+
+  try {
+    INDEX = await getJSON('./data/index.json');
+  } catch (e) {
+    setBadge('err', '清单缺失');
+    sel.disabled = true;
+    showOverlay(
+      '<h2>读不到 data/index.json</h2>' +
+      '<p>城市清单不存在。先抓一次数据：</p>' +
+      '<pre><span class="cmd">python tools/fetch-subways.py</span></pre>' +
+      '<p class="why">只抓个别城市可以加 <code>--only 131,289</code>。</p>',
+      true
+    );
+    return;
+  }
+
+  buildSelect(INDEX.cities);
+  sel.disabled = false;
+  sel.onchange = () => selectCity(sel.value, true);
+  window.addEventListener('hashchange', () => {
+    const c = location.hash.replace('#', '');
+    const active = pending || (current && current.code);
+    if (c && c !== String(active)) selectCity(c, false);
+  });
+
+  const total = INDEX.cities.length;
+  const okCnt = INDEX.cities.filter(c => c.ok).length;
+  fileEl.textContent = 'data/index.json';
+  fileEl.title = '共 ' + total + ' 城 / 可用 ' + okCnt + ' 城 · 数据版本 ' + (INDEX.dataVersion || '—') +
+                 ' · 抓取于 ' + INDEX.generatedAt;
+
+  let code = location.hash.replace('#', '') || DEFAULT_CODE;
+  const info = cityInfo(code);
+  if (!info || !info.ok) {
+    const firstOk = INDEX.cities.filter(c => c.ok)[0];
+    code = firstOk ? String(firstOk.code) : DEFAULT_CODE;
+    if (!firstOk) {
+      setBadge('err', '无可用数据');
+      showOverlay('<h2>这个数据集里没有任何可用城市</h2><p>请重新抓取：</p>' +
+                  '<pre><span class="cmd">python tools/fetch-subways.py</span></pre>', true);
+      return;
+    }
+  }
+  selectCity(code, true);
+}
+
+$('reload').addEventListener('click', () => {
+  if (IS_FILE) return;
+  const code = current ? current.code : DEFAULT_CODE;
+  cache.delete(code);
+  selectCity(code, false);
+});
+
+boot();
+</script>
+</body>
+</html>

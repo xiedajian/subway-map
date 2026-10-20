@@ -1,0 +1,19 @@
+{
+  "name": "subway-map-tests",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Verification suite for subway-map.html (data layer + real DOM + file:// branch)",
+  "scripts": {
+    "test": "node verify.mjs && node dom-test.mjs && node file-test.mjs",
+    "test:data": "node verify.mjs",
+    "test:dom": "node dom-test.mjs",
+    "test:file": "node file-test.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^30.1.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
