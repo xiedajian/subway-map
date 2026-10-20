@@ -7,6 +7,8 @@
 
 **[English](#english) · [中文](#中文)**
 
+**在线访问 / Live demo → https://xiedajian.github.io/subway-map/**
+
 ![Beijing subway diagram](docs/preview-beijing.svg)
 
 ---
@@ -36,17 +38,18 @@ as plain JSON under `data/`. Everything runs from disk afterwards — no network
 
 ## Quick start
 
-**Windows** — double-click `serve.bat`.
-**macOS / Linux** — `chmod +x serve.sh && ./serve.sh`
+**Just want to look at it?** → <https://xiedajian.github.io/subway-map/> (GitHub Pages, no install).
+
+**Run it locally** — **Windows** double-click `serve.bat`; **macOS / Linux** `chmod +x serve.sh && ./serve.sh`.
 
 Both start a static server on port 8000 and open the browser. Manual equivalent:
 
 ```bash
 python -m http.server 8000
-# then open http://localhost:8000/subway-map.html
+# then open http://localhost:8000/
 ```
 
-> ### ⚠️ Do not double-click `subway-map.html`
+> ### ⚠️ Do not double-click `index.html`
 >
 > A `file://` page **cannot read local JSON files**. The page origin is `null`, so `fetch` on a local
 > file is treated as a cross-origin request and blocked with
@@ -61,7 +64,8 @@ python -m http.server 8000
 ## Project structure
 
 ```
-subway-map.html               the entire frontend: one file, no dependencies, no inlined data
+index.html                    the entire frontend: one file, no dependencies, no inlined data
+.nojekyll                     skip Jekyll processing so data/ is published byte-for-byte
 serve.bat                     double-click launcher (Windows)
 serve.sh                      launcher (macOS / Linux)
 tools/
@@ -217,15 +221,35 @@ What is asserted:
 > assert data correctness, DOM structure and interaction state — not pixel output. Visual polish
 > (stroke weight, label density) is a human call.
 
+## Deploying your own copy (GitHub Pages)
+
+The repo is ready to publish as-is — no build step, no Actions workflow needed:
+
+1. Fork, or push your own copy.
+2. **Settings → Pages → Source: Deploy from a branch → `main` / `/ (root)` → Save.**
+3. First build takes ~30 s; the site lands at `https://<user>.github.io/<repo>/`.
+
+Two details that make this work, both already in the repo:
+
+- **`index.html`** is the entry point — a project page at `/` needs that exact filename.
+- **`.nojekyll`** disables Jekyll. Without it GitHub runs your files through a Jekyll build, which can
+  mangle paths starting with `_` and adds a deployment delay. The dataset here is plain JSON, so the
+  raw passthrough is what you want.
+
+> **If your account has an old custom domain set on `<user>.github.io`**, project pages inherit it and
+> every project URL 301-redirects to `https://<that-domain>/<repo>/`. If that domain has lapsed, your
+> site is unreachable even though the build is green. Check `Settings → Pages` on your
+> `<user>.github.io` repo (a `CNAME` file) and clear it if the domain is dead.
+
 ## Customisation
 
 | Want to change | Where |
 |---|---|
-| Default city | `const DEFAULT_CODE = 131` in `subway-map.html` |
+| Default city | `const DEFAULT_CODE = 131` in `index.html` |
 | Port | `8000` in `serve.bat` (3 places) and in `serve.sh` (default arg) |
 | Grouping rules | `HK_MO_TW` set and `group_of()` in `tools/fetch-subways.py` |
 | Fetch rate / timeout | CLI flags `--delay` / `--retries` / `--timeout` |
-| Colours and type scale | CSS variables in `:root` at the top of `subway-map.html` |
+| Colours and type scale | CSS variables in `:root` at the top of `index.html` |
 
 ## Other known endpoints (not wired up)
 
@@ -279,17 +303,18 @@ covered by that license — see below.
 
 ## 快速开始
 
-**Windows** — 双击 `serve.bat`。
-**macOS / Linux** — `chmod +x serve.sh && ./serve.sh`
+**只想看看效果？** → <https://xiedajian.github.io/subway-map/>（GitHub Pages，免安装）
+
+**本地跑** — **Windows** 双击 `serve.bat`；**macOS / Linux** `chmod +x serve.sh && ./serve.sh`
 
 两者都会在 8000 端口起静态服务并自动打开浏览器。手动等价命令：
 
 ```bash
 python -m http.server 8000
-# 然后访问 http://localhost:8000/subway-map.html
+# 然后访问 http://localhost:8000/
 ```
 
-> ### ⚠️ 不要双击 `subway-map.html`
+> ### ⚠️ 不要双击 `index.html`
 >
 > 以 `file://` 打开时**读不到本地 JSON**。页面 origin 是 `null`，对本地文件的 `fetch` 会被当作
 > 跨源请求拦截，报错为 `Cross origin requests are only supported for protocol schemes: http, https...`。
@@ -303,7 +328,7 @@ python -m http.server 8000
 ## 目录结构
 
 ```
-subway-map.html               全部前端：单文件、零依赖、零内联数据
+index.html                    全部前端：单文件、零依赖、零内联数据
 serve.bat                     双击启动（Windows）
 serve.sh                      启动脚本（macOS / Linux）
 tools/
@@ -456,15 +481,33 @@ node file-test.mjs    # file:// 分支：引导层、零请求
 > 构建环境里拿不到无头 Chrome 截图输出，所以测试断言的是数据正确性、DOM 结构与交互状态，
 > 不包含像素级校验。观感层面（线宽、标注疏密）需要人工在浏览器确认。
 
+## 部署自己的副本（GitHub Pages）
+
+仓库可以原样发布，不需要构建、不需要 Actions：
+
+1. Fork，或者推一份自己的副本。
+2. **Settings → Pages → Source 选 Deploy from a branch → `main` / `/ (root)` → Save。**
+3. 首次构建约 30 秒，地址为 `https://<用户名>.github.io/<仓库名>/`。
+
+两个让这件事成立的文件都已就位：
+
+- **`index.html`**——项目页根路径只认这个文件名。
+- **`.nojekyll`**——关掉 Jekyll。不关的话 GitHub 会先跑一遍 Jekyll 构建，可能改动以 `_` 开头的
+  路径，还会拖慢发布。这里的数据就是普通 JSON，原样透传才是对的。
+
+> **如果你的账号在 `<用户名>.github.io` 上配过一个早已失效的自定义域名**，项目页会继承它，
+> 所有项目地址都会 301 跳到 `https://<那个域名>/<仓库名>/`。域名若已过期，构建是绿的但站点打不开。
+> 去那个仓库的 `Settings → Pages` 或 `CNAME` 文件里清掉即可。
+
 ## 自定义
 
 | 想改什么 | 改哪里 |
 |---|---|
-| 默认打开的城市 | `subway-map.html` 里的 `const DEFAULT_CODE = 131` |
+| 默认打开的城市 | `index.html` 里的 `const DEFAULT_CODE = 131` |
 | 端口 | `serve.bat` 里的 `8000`（3 处）、`serve.sh` 的默认参数 |
 | 分组规则 | `tools/fetch-subways.py` 的 `HK_MO_TW` 集合与 `group_of()` |
 | 抓取间隔 / 超时 | 命令行参数 `--delay` / `--retries` / `--timeout` |
-| 配色与字号 | `subway-map.html` 顶部 `:root` 里的 CSS 变量 |
+| 配色与字号 | `index.html` 顶部 `:root` 里的 CSS 变量 |
 
 ## 其他已知接口（暂未接入）
 
