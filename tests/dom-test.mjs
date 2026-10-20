@@ -71,6 +71,7 @@ check('站点/换乘文字标注已绘制', count('#root text') > 100, `实际 $
 check(`图例行数 = ${bjInfo.lines}`, count('#legend .row') === bjInfo.lines, `实际 ${count('#legend .row')}`);
 check('顶栏线路数正确', $('s-l').textContent === String(bjInfo.lines), $('s-l').textContent);
 check('顶栏站点数正确', $('s-s').textContent === String(425), $('s-s').textContent);
+check('顶栏显示 8 位图形版本哈希', /^[0-9a-f]{8}$/.test($('s-v').textContent), $('s-v').textContent);
 check('状态徽标 ok', $('badge').className.includes('ok'), $('badge-t').textContent);
 check('标题含城市名', doc.title.startsWith('北京市'), doc.title);
 check('覆盖层已隐藏', !$('overlay').className.includes('on'));
